@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day3</title>
+</head>
+<body>
+    <!--LEARN Arrays and Objects-->
+</body>
+    <script>
+        /*Arrays - enables storing multiple collection of data in a single variable.
+        it can call single or multiple data stored inside however you want by using index.
+        the array index starts with 0.*/
+
+        const fruits = ['banana', 'apple', 'grapes'];
+
+        //Javascript has special built in methods to take advantage when using array.
+        //push method adds the new object as the last element
+        console.log(fruits.push('cherry'));
+        //toString method parses the array to string instead of being an element
+        console.log(fruits.toString());
+        //length is a property that sums that total length of the array.
+        console.log(fruits.length); 
+
+        //a method that returns the key of an array/object
+        console.log(Object.keys(fruits));
+
+        //Objects - collection of properties
+        const human = {
+            name: "Harvin",
+            gender: "Male",
+            age: 28,
+            dream: "Developer/Businessman",
+            claim: 2026,
+
+        }
+
+        console.log(human);
+
+        //Objects inside array.
+        const animals = [
+            {name: "cat", legs: 4},
+            {name: "bird", legs: 2},
+        ];
+
+        //use bracket inside the push method in order to create the object.
+        console.log(animals.push({
+            name: "dog",
+            legs: 4,
+        }));
+
+        //call the array following the index 0 of the object and the property.
+        console.log(animals[0].name);
+
+        //a method that returns the key of an array/object
+        console.log(Object.keys(animals));
+
+       
+
+    </script>
+</html>
