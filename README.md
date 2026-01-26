@@ -17,3 +17,8 @@
       <li>String: sequence of characters or text value.</li>
       <li>Symbol - instances that are unique and immutable.</li>
    </ul>
+   <h4>Day 3: Learned Arrays and Objects.</h4>
+   <ul>
+      <li>Arrays: a way to store multiple elements(variables or values). can access all elements in one go or specific elements by specifying the index and it starts with 0 and the last part would be -1(in JS)</li>
+      <li>Objects: collection of properties. </li>
+   </ul>
