@@ -22,3 +22,11 @@
       <li>Arrays: a way to store multiple elements(variables or values). can access all elements in one go or specific elements by specifying the index and it starts with 0 and the last part would be -1(in JS)</li>
       <li>Objects: collection of properties. </li>
    </ul>
+   <h4>Day 4: Learned Operators</h4>
+   <ul>
+      <li>Arithmetic Operators: basic math for combining or transforming numbers Add(+), Subtract(-), Multiply(*), Divide(/), Modulo(%).</li>
+      <li>Unary Operators: performs an operation using a single operand Increment(++), and Decrement(--)</li>
+      <li>Assignment Operators: assigns a value or the result of an expression from the right side to a variable on the left side. =, !=, +=, -=, *=, /=, %=.</li>
+      <li>Comparison Operators: compares two values, returning a boolean result to determine their relationship. Equal(==),Less than(<), Greater than(>), Less than or equal to(<=), Greater than or equal to(>=), Not Equal to(!=).</li>
+      <li>Logical Operators: used to combine or modify boolean expressions and return a boolean result. Fundemantal for decision making. AND(&&), OR(||), !(NOT).</li>
+   </ul>
