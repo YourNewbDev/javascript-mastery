@@ -30,3 +30,4 @@
       <li>Comparison Operators: compares two values, returning a boolean result to determine their relationship. Equal(==),Less than(<), Greater than(>), Less than or equal to(<=), Greater than or equal to(>=), Not Equal to(!=).</li>
       <li>Logical Operators: used to combine or modify boolean expressions and return a boolean result. Fundemantal for decision making. AND(&&), OR(||), !(NOT).</li>
    </ul>
+   <h4>Day5: Learned If Else conditions with simple logic decisioning.</h4>
