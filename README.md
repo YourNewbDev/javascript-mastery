@@ -31,3 +31,4 @@
       <li>Logical Operators: used to combine or modify boolean expressions and return a boolean result. Fundemantal for decision making. AND(&&), OR(||), !(NOT).</li>
    </ul>
    <h4>Day5: Learned If Else conditions with simple logic decisioning.</h4>
+   <h4>Day6: Built Mini Price Calculator with simple usage of conditions and variables.</h4>
