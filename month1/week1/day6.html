@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day6</title>
+</head>
+<body>  
+    <!--Implement current learnings by doing Mini Pricing Calculator with Discount-->
+</body>
+    <script>
+        const price = prompt("Enter the price: ");
+        const discountPercentage = prompt("Enter discount percent: ");
+        
+        const discountedAmount = price * (discountPercentage / 100);
+        const finalPrice = price - discountedAmount;
+
+        if (discountPercentage >= 100) {
+            alert("You cannot have this large discount because you will not gain profit.");
+        }
+        else if (discountPercentage <= 0) {
+            alert("Invalid percentage.");
+        }
+        else {
+            alert("Price is: "+ finalPrice);
+        }
+    </script>
+</html>
