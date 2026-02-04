@@ -32,3 +32,4 @@
    </ul>
    <h4>Day5: Learned If Else conditions with simple logic decisioning.</h4>
    <h4>Day6: Built Mini Price Calculator with simple usage of conditions and variables.</h4>
+   <h4>Day7: Reviewed and Rewrite code.</h4>
