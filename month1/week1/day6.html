@@ -9,8 +9,8 @@
     <!--Implement current learnings by doing Mini Pricing Calculator with Discount-->
 </body>
     <script>
-        const price = prompt("Enter the price: ");
-        const discountPercentage = prompt("Enter discount percent: ");
+        const price = Number(prompt("Enter the price: "));
+        const discountPercentage = Number(prompt("Enter discount percent: "));
         
         const discountedAmount = price * (discountPercentage / 100);
         const finalPrice = price - discountedAmount;
@@ -20,6 +20,9 @@
         }
         else if (discountPercentage <= 0) {
             alert("Invalid percentage.");
+        }
+        else if (!Number(price) || !Number(discountPercentage)) {
+            alert("Enter a number!");
         }
         else {
             alert("Price is: "+ finalPrice);
