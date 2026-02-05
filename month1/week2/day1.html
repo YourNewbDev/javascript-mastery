@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day1</title>
+</head>
+<body>
+    <!--Learn Functions & Parameters-->
+</body>
+    <script>
+        //Function - a block of code that does a specific task. It takes some data as input and you can display the output.
+        // This is a way of reusable code and a procedural way of encapsulation.
+
+        //Function is declare this way:
+        function square(number) {
+            return number * number;
+        }
+        //It starts by declaring function followed by the name of the function which is "square" with 1 parameter inside the
+        //open-close parenthesis called "number". It returns the value of the data inputted in the function the multiplies itself.
+
+        console.log(square(6));
+        //When calling the function or using it, and if it has a parameter, it is a must to enter an input or what we call "argument"
+        //which is "6" so when it executes the program, it will call the square function and will return the value of "36"
+        //because the parameter we sent is 6 and it returns the 6 * 6.
+        //To sum up, parameter is a placeholder and argument is the value that we pass for a function to run.
+
+
+        function myFunc(theObject) {
+            return theObject.make = "Toyota";
+            //make is property of the myCar object.
+        };
+
+        const myCar = {
+            make: "Honda",
+            model: "Accord",
+            year: 1998,
+        };
+
+        console.log(myCar.make);
+        //Displays Honda since its inside the object already.
+
+        myFunc(myCar);
+        //Using the myCar object as an argument for the myFunc function.
+
+        console.log(myCar.make);
+        //Displays Toyota since it used the make property as reference it passed what is inside the function return value.
+        
+        
+        function myFunc(theArr) {
+            return theArr[0] = 30;
+        };
+
+        const arr = [45];
+
+        console.log(arr[0]);
+        //Displays 45 since its inside the object already.
+
+        myFunc(arr);
+        //Using the arr as an argument for the myFunc function.
+
+        console.log(arr[0]);
+        //Displays 30 since it used the index 0 as reference in the array and passed what is inside the function return value.
+
+
+
+    </script>
+</html>
